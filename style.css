@@ -1,0 +1,96 @@
+ *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: hsl(221, 100%, 96%);
+    }
+    .card{
+      box-shadow:rgba(0, 0, 0, .24)6px 3px 7px;
+      border-radius: 2rem;
+      width: 554px;
+      background-color: hsl(0, 0%, 100%);
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }
+    .one{
+      width: 50%;
+      padding: 1.5rem 2rem;
+      border-radius: 2rem;
+      background:  hsl(241, 81%, 54%);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+    .one .three{
+      color: hsl(241, 100%, 89%);
+      margin-bottom: 1rem;
+    }
+    .one .circle{
+      width: 216px;
+      height: 150px;
+      border-radius:51%;
+      background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .circle h4{
+      color: hsl(0, 0%, 100%);
+      font-size: 4rem;
+    }
+    .two{
+      width: 50%;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+      gap: .8rem;
+    }
+    .row_1{
+      display: flex;
+      border-radius: 18px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .row_1:nth-child(1){
+      background-color: hsl(0, 100%, 67%,.2);
+      color:  hsl(0, 100%, 67%);
+    }
+   .row_1:nth-child(2){
+    background-color:hsl(0, 100%, 67%,.1) ;
+    color:  hsl(39, 100%, 56%);
+   }
+    .row_1:nth-child(3){
+    background-color:hsl(166, 100%, 37%, .2) ;
+    color:  hsl(166, 100%, 37%);
+   }
+     .row_1:nth-child(4){
+    background-color:hsl(234, 85%, 45% ,.1) ;
+    color: hsl(234, 85%, 45%);
+   }
+   .cta{
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    background: hsl(224, 30%, 27%);
+    cursor: pointer;
+    color: white;
+   }
+  
+  
+    .attribution { font-size: 11px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
